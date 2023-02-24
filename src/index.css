@@ -5,9 +5,130 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #333333;
+  background-image: url("../public/assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h3{
+  color: #2F527B;
+  padding-top: 40px;
+}
+h1{
+  color: white;
+  margin-left: 34%;
+  margin-bottom: -50px;
+}
+.app{
+  background-color: white;
+  margin: auto;
+  align-items: center;
+  Width :30%;
+  Height:520px;
+  margin-top:42px;
+  padding-left: 2.5%;
+  border-radius:24px;
+}
+
+ul :hover{
+  background-color:#F9A826 ;
+  color: white;
+  cursor: pointer; 
+}
+li{
+  list-style-type:upper-alpha ;
+  align-items: center;
+  margin-left: -5%;
+  width: 80%;
+  color: #6066D0;
+  border:solid 1px teal;
+  background-color: white;
+  margin-bottom: 25px;
+  padding-left: 15%;
+  padding-top: 10px;
+  height: 30px;
+  border-radius:5px;
+  font-weight: 400;
+}
+li::marker{
+  color:#6066D0;
+    display: flex;
+}
+
+.Logo{
+  margin-top: -45px;
+  float: right;
+  margin-bottom: 20px;
+}
+i{
+ float: right;
+  color: white;
+  margin-right: 5%;
+}
+
+button{
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  float: right;
+  margin-right: 9.4%;
+  font-size: 22px;
+  background-color: #F9A826;
+   color: white;
+}
+
+.selected-answer {
+         
+  background: green;
+  border: 1px solid #800080;
+}
+.red{
+  background: #F9A826; 
+}
+.result{
+  margin-left:-15%;
+
+}
+
+@media screen and (max-width:768px){
+
+
+  body{
+    background-repeat:repeat-y ;
+    
+  }
+  h3{
+    width: 85%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .app{
+    width: 90%;
+    margin-left: 4%;
+    Height: 550px;
+  }
+
+  ul :hover{
+    background-color:white;
+    color:#6066D0 ;
+    cursor: pointer; 
+  }
+ 
+  h1{
+    padding-top: 20%;
+    color: white;
+    margin-left: 3%;
+    font-size: 26px;
+  }
+  button{
+    font-size: 16px;
+  }
 }
